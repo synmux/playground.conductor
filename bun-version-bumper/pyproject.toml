@@ -1,0 +1,17 @@
+[project]
+name = "bun-version-updater"
+version = "0.1.0"
+description = "Update Bun versions across package.json files in subdirectories"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "httpx>=0.28.1",
+]
+
+[project.scripts]
+bun-version-updater = "main:main"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.2",
+]
