@@ -1,2 +1,5 @@
 # root ignore file
 
+**/node_modules/**
+
+
